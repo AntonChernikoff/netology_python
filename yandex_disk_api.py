@@ -28,8 +28,8 @@ if __name__ == '__main__':
     PATH_MAIN = os.getcwd()
     file_name = '1.txt'
     path_to_file = os.path.join(PATH_MAIN,'netology_python','files_txt',file_name)
-    token = 'AQAAAABGdMBrAADLW_9whnkEeU1pr0uV4gyMwZc'
-    uploader = YaUploader(token)
+    TOKEN = ''
+    uploader = YaUploader(TOKEN)
     result = uploader.upload(path_to_file,file_name)
     # print(result)
 
